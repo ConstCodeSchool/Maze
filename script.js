@@ -6,11 +6,11 @@ const BACKGROUND_COLOR = "gray";
 const TRACTOR_COLOR = "red";
 
 const TRACTORS_NUMBER = 100;
-const DELAY_TIMEOUT = 0;
+const DELAY_TIMEOUT = 100;
 const COLUMNS = 101;
 const ROWS = 101;
 
-const WITH_ANIMATION = false;
+const WITH_ANIMATION = true;
 
 const canvas = document.querySelector("canvas");
 const context = canvas.getContext("2d");
